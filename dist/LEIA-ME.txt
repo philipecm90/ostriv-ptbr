@@ -1,0 +1,75 @@
+==========================================================
+  Tradução PT-BR para Ostriv 0.5.9.58
+==========================================================
+
+O QUE É
+-------
+Tradução completa de menus, painéis, recursos, construções,
+dicas e da Ajuda para português do Brasil.
+
+O pacote NÃO contém arquivos do jogo. O instalador aplica um
+patch ao ostriv.exe que você já possui e gera o executável
+traduzido (ostriv_ptbr.exe). O executável original NÃO é
+alterado.
+
+COMO INSTALAR
+-------------
+Opção 1 (recomendada): extraia este ZIP na pasta raiz do jogo
+e execute INSTALAR.bat.
+
+Opção 2: extraia em qualquer pasta e execute INSTALAR.bat.
+O instalador procura o Ostriv automaticamente em:
+  - Steam (todas as bibliotecas)
+  - GOG
+  - C:\Games\Ostriv, D:\Games\Ostriv etc.
+  - pasta atual (inclusive layout Game\Ostriv)
+Se não encontrar, ele pede para você selecionar a pasta.
+
+O instalador:
+  - copia o ostriv_ptbr.exe para a pasta do jogo;
+  - cria um launcher PT-BR quando existe o loader portátil;
+  - define o idioma Português (Brasil);
+  - cria o atalho "Ostriv PT-BR" na área de trabalho.
+
+COMO JOGAR
+----------
+Use o atalho "Ostriv PT-BR" ou execute:
+  <pasta do jogo>\ostriv_ptbr.exe
+
+Na primeira execução o Windows Firewall pode perguntar sobre o
+ostriv_ptbr.exe. Pode permitir ou cancelar (o jogo funciona
+offline).
+
+IDIOMA
+------
+Para trocar: Opções > Idioma > English / Português (Brasil).
+
+O idioma fica salvo em Saved Games\Ostriv\settings.data e é
+compartilhado pelos dois executáveis. Se abrir o ostriv.exe
+original com o idioma em Português, ele mostrará o texto
+ucraniano original. Selecione English para voltar ao inglês.
+
+COMPATIBILIDADE
+---------------
+Esta tradução foi gerada para o Ostriv 0.5.9.58.
+O instalador detecta a versão e avisa se for diferente.
+Versões mais novas do jogo exigem uma tradução regerada.
+
+LIMITAÇÃO CONHECIDA
+-------------------
+Alguns rótulos das telas de Novo jogo e Opções usam um caminho
+de texto do motor que só aceita ASCII; nesses poucos rótulos os
+acentos aparecem sem diacríticos (ex.: "reinicializacao").
+O restante do jogo, incluindo a Ajuda, mostra os acentos
+corretamente.
+
+COMO DESINSTALAR
+----------------
+Execute DESINSTALAR.bat. Ele remove o executável traduzido, o
+launcher e o atalho, e volta o idioma para inglês.
+O ostriv.exe original permanece intacto.
+
+CRÉDITOS
+--------
+Tradução e ferramentas feitas para uso pessoal.
+Ostriv é um jogo de yevhen8 / ostrivgame.com.

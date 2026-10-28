@@ -1,0 +1,53 @@
+# Arquivos do jogo / builds locais (não publicar)
+ostriv.exe
+ostriv_ptbr.exe
+Ostriv-PTBR-Instalador.exe
+*.save
+data.data
+backup/
+dist/ostriv_ptbr.exe
+dist/*.exe
+local_saves/
+steam_settings/
+Game/
+log/
+Easy Language Changer.exe
+Play - Ostriv*.exe
+Play - Ostriv*.ini
+*.sha1
+*.dll
+
+# Dados extraídos do executável (contêm texto do jogo)
+data/catalog.json
+data/catalog_uk.json
+data/pairs.tsv
+data/strings.json
+data/strings.tsv
+data/utf16_en.json
+data/utf16_en.tsv
+data/utf16_strings.tsv
+data/window.txt
+data/inventory_*.tsv
+data/help_db*.txt
+data/help_leas.txt
+data/help_init.txt
+data/help_lists.txt
+data/help_map_raw.json
+data/help_targets.json
+data/help_buildings.json
+
+# Temporários
+__pycache__/
+*.pyc
+*.tmp
+payload.7z
+installer.sed
+config.txt
+7z.sfx
+.sed
+
+data/batches/
+data/help_targets.json
+data/help_buildings.json
+
+scripts/dev/

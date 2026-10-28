@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.patch binary
+*.zip binary
+*.exe binary
+*.jpg binary
+*.png binary
